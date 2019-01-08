@@ -6,8 +6,11 @@ I only added a tiny bit of code to combine these products.
 
 This Arduino sketch depends on the Wire.h library for i2c communication. It was tested on ATmega328p and ATmega168p chips but should run on any chip (with at least a UART and an I2C port) that you can compile the sketch for.
 
-LTM: https://github.com/KipK/Ghettostation/blob/master/GhettoStation/LightTelemetry.cpp
 
 I2C-to-S.BUS2 interface: https://shop.tje.dk/catalog/product_info.php?cPath=22&products_id=42
+
+LTM: https://github.com/KipK/Ghettostation/blob/master/GhettoStation/LightTelemetry.cpp
+
+LTM protocol description: https://github.com/iNavFlight/inav/wiki/Lightweight-Telemetry-(LTM)
 
 LTM reader: https://github.com/DzikuVx/ltm_telemetry_reader
